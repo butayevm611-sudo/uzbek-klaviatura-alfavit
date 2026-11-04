@@ -29,6 +29,14 @@ Yoki git'siz: sahifadagi **Code → Download ZIP** tugmasini bosing, soʻng:
 Soʻng tizimdan chiqib qayta kiring va Super+Space bilan tanlang.
 
 ## Tekshirish
+C dasturi (gcc kerak):
+
+    make
+    ./xkbtest                   # AltGr birikmalari jadvali
+    ./xkbtest "Çöl ğişt maʼno"  # har bir harf qaysi tugma bilan yoziladi
+
+Yoki Python bilan:
+
     python3 xkbtest.py
 
 ## Oʻchirish
@@ -39,5 +47,6 @@ Soʻng tizimdan chiqib qayta kiring va Super+Space bilan tanlang.
 - `xkb/rules/evdev.xml` — GNOME sozlamalari uchun nom
 - `xkb/COPYING.xkeyboard-config` — xkeyboard-config litsenziyasi
 - `install.sh` — oʻrnatish / oʻchirish
-- `xkbtest.py` — tugmalarni sinash skripti
+- `xkbtest.c`, `Makefile` — tugmalarni sinash dasturi (C, libxkbcommon)
+- `xkbtest.py` — xuddi shu sinov Python’da
 - `Uzbek_klaviatura.docx` — toʻliq qoʻllanma (kod, tushuntirish, skrinshotlar)
