@@ -14,8 +14,17 @@ Ubuntu / GNOME (Wayland va X11) uchun. sudo kerak emas.
 AltGr = oʻng Alt tugmasi.
 
 ## Oʻrnatish
-    unzip uzbek-klaviatura-alfavit.zip
+GitHub'dan yuklab olib:
+
+    git clone https://github.com/butayevm611-sudo/uzbek-klaviatura-alfavit.git
     cd uzbek-klaviatura-alfavit
+    ./install.sh
+
+Yoki git'siz: sahifadagi **Code → Download ZIP** tugmasini bosing, soʻng:
+
+    cd ~/Downloads
+    unzip uzbek-klaviatura-alfavit-main.zip
+    cd uzbek-klaviatura-alfavit-main
     ./install.sh
 Soʻng tizimdan chiqib qayta kiring va Super+Space bilan tanlang.
 
