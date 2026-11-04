@@ -2,6 +2,8 @@
 
 Ubuntu / GNOME (Wayland va X11) uchun. sudo kerak emas.
 
+**Mualliflar:** Butayev Muhammad, Abdullajonov Azimjon
+
 | Tugmalar          | Harf |
 |-------------------|------|
 | AltGr + o         | ö    |
